@@ -1,0 +1,35 @@
+# Caches and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.pytest_cache/
+.streamlit/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Benchmark Output and Document files
+*.xlsx
+*.docx
+
+# SECRETS (EXTREMELY IMPORTANT)
+.env
+*.env
+*.env.*
+vertex_sa.json
+*.pem
+*.key
+
+# Local databases and caches
+qdrant_local_db/
+slumber_cache/
+chunk_retriever/debug_output*.txt
+
